@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background: #5cbaff;
+
+    margin-bottom: 2px;
+
+    box-shadow: 2px 2px 4px #5cbaff;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.nav-menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+.logo {
+
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.main-menu {
+
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-menu-left ul {}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+
+
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    opacity: 0.65;
+
+}
+
+.main-menu ul li a:hover {
+    opacity: 1;
+}
+
+
+.hero-section {
+    display: inline-flex;
+}
+
+.banner-section {
+    width: 40%;
+
+
+    background-color: #5CBAFF;
+}
+
+.banner-section img {
+    width: 80%;
+    margin-top: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.contact-section {
+    width: 60%;
+    background-color: #0093FF;
+}
+
+.contact-form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    color: white;
+}
+
+.contact-form form input {
+    width: 100%;
+    padding: 14px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form h3 {
+    font-size: 22px;
+    padding: 0 0 15px 0;
+}
+
+.contact-form p {
+    font-size: 18px;
+    padding: 0 0 10px 0;
+}
+
+.contact-form h4 {
+    font-size: 22px;
+    padding: 0 0 10px 0;
+}
+
+.contact-form form input[type="submit"] {
+    width: 40% !important;
+    background-color: white;
+    border: none;
+    transition-duration: .3s;
+}
+
+.contact-form form input[type="submit"]:hover {
+
+    background-color: #5CBAFF;
+
+}
+
+.social-links ul li {
+    display: inline-block;
+
+    padding-left: 2px;
+
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 14px;
+}
+
+.social-links ul li a:hover {
+    color: #68B56A;
+
+}
+
+.social-links ul {
+    width: 100%;
+    padding-bottom: 80px;
+}
